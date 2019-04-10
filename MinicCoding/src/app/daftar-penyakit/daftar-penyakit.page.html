@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Daftar Penyakit</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <button ion-item *ngFor="let item of icons" (click)="itemSelected(item)">
+          {{ item }}
+        </button>  
+      </ion-list>
+</ion-content>
